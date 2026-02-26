@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html">About</a>
+        <a href="quizzes.html">Quizzes</a>
+        <a href="form.html">Quiz Registration</a>
+        <a href="report.html">Reports</a>
+        <a href="contact.html">Contact</a>
+        <a href="admin.html">Admin</a>
+    </nav>
+
+    <div class="container">
+
+        <h1>Admin Control Panel</h1>
+
+        <div class="card">
+            <h3>Manage Registration Data</h3>
+            <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQjoquwL34lyta1vJnCsyug2fAVdT3OHIY2KO_4K421JSIoOcP5Q94unfvHjvc_FWhdauhtuP4Pn2zg/pubhtml?widget=true&amp;headers=false" target="_blank">View Registration Sheet</a>
+        </div>
+
+        <div class="card">
+            <h3>Manage Quiz Results</h3>
+            <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQjoquwL34lyta1vJnCsyug2fAVdT3OHIY2KO_4K421JSIoOcP5Q94unfvHjvc_FWhdauhtuP4Pn2zg/pubhtml?gid=1351005942&single=true" target="_blank">View Quiz Results Sheet</a>
+        </div>
+
+        <div class="card">
+            <h3>Edit Registration Form</h3>
+            <a href="https://docs.google.com/forms/d/147TWf3KMz7PoXmEYk61NjTgFoenxIfhrm4CwkldNH4Y/edit" target="_blank">Edit Form</a>
+        </div>
+
+        <div class="card">
+            <h3>Edit Quiz Forms</h3>
+            <a href="https://docs.google.com/forms/d/1zTW9fJrm7rfbyYNS89bfaC_u2GxnFFPlfyC5f83fT8U/edit" target="_blank">Edit Quiz</a>
+
+            <a href="https://docs.google.com/forms/d/1mlips_iyICdIk_n95yEKBlWsVyK7kIHmEAzLUI7DTcE/edit" target="_blank">Edit Quiz</a>
+
+            <a href="https://docs.google.com/forms/d/1tphVh9wf58HNCwpTcwbqibjTb8eRtGeKKH6r9kC4yXo/edit" target="_blank">Edit Quiz</a>
+        </div>
+
+        <button onclick="logout()">Logout</button>
+
+    </div>
+
+    <script>
+        function logout() {
+            window.location.href = "index.html";
+        }
+    </script>
+
+</body>
+</html>
